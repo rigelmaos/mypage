@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #CD3266;
+    color: white;
+    padding: 2rem;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 7px;
+    }
+        .navigation ul li a:hover{
+            background: white;
+            color: #CD3266;
+        }   
+
+/*Separación*/
+.Portafolio {
+    font-family: 'Delius Unicase', cursive;
+    background: #CD3266;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*estilos de la galeria*/
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria li {
+    margin: 10px
+}
+
+.galeria img{
+    width: 400px;
+    height: 400px;
+}
+
+/*estilos del modal*/
+
+.modal{
+    display: none;
+}
+
+.modal:target {
+    display: block;
+    position: fixed;
+    background: hsl(340, 61%, 50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color:white;
+    font-size: 30px;
+    font-family: 'Delius Unicase', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.marca{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.marca a {
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Delius Unicase', cursive;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.marca a:nth-child(2){
+    flex-shrink: 2;
+}
+
+.marca img{
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+}
+
+.cerrar {
+    display: block;
+    margin-right: 15px;
+    padding: 5px;
+    line-height: 25px;
+    float: right;
+    font-family: 'Delius Unicase', cursive;
+    color:#CD3266;
+    font-size: 30px;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/*Media queries*/
+@media screen and (max-width: 1680px) {
+    body{
+        background-size: cover;
+    }  
+}
+@media screen and (max-width:1150px) {
+    body{
+        width: 100%;
+        background-repeat: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        background-size: cover;
+    }  
+}

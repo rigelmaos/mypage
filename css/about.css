@@ -1,0 +1,135 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #CD3266;
+    color: white;
+    padding: 2rem;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 7px;
+    }
+        .navigation ul li a:hover{
+            background: white;
+            color: #CD3266;
+        }
+
+/*Separación*/
+.about {
+    font-family: 'Delius Unicase', cursive;
+    background: #CD3266;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Presentación*/      
+.content h2{
+    font-family: 'Delius Unicase', cursive;
+    color: #CC9B9B;
+    font-size: 2em;
+    text-align:center;
+}
+
+.content p{
+    line-height: 1.8em;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+ 
+.center1{
+    display:flex;
+    justify-content: center;
+}
+
+.center1 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.center img{
+    width: 60%;
+    height: 100pv;
+    margin-bottom: 10px;
+}
+
+/*Media queries*/
+@media screen and (max-width: 1680px) {
+    body{
+        background-size: cover;
+    }  
+}
+@media screen and (max-width:1150px) {
+    body{
+        width: 100%;
+        background-repeat: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    body{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        background-size: cover;
+    }  
+}
